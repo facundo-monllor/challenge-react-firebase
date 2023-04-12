@@ -28,7 +28,7 @@ const handleData = (e) => {
       ...user,
         [e.target.name] : e.target.value
     })
-    console.log(user)
+    console.log("user",user)
 }
 
 const handleSubmit = (e) => {
